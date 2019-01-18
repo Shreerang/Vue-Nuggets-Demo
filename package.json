@@ -14,6 +14,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
+    "ecommerce-ui-nuggets": "^0.1.2",
     "express": "^4.16.3",
     "serve-static": "^1.13.2",
     "vue": "^2.5.21"

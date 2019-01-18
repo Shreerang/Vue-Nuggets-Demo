@@ -4,7 +4,7 @@
       <img src="./assets/Vue_Nuggets.png" alt="" />
     </h1>
     <h1 class="default-color">
-      Wishing everyone a very Happy & Prosperous New Year 2019 🎉 🎉 🎉
+      E-commerece Nuggets are now available as a <a href="https://www.npmjs.com/package/ecommerce-ui-nuggets">NPM Package</a> 🎉 🎉 🎉
     </h1>
     <div class="card">
       <Alert :isActive="this.errorActive">Error Message Goes Here</Alert>
@@ -302,14 +302,7 @@
 
 <script>
 const swatchImg = require('./assets/color_swatch.jpeg');
-import QuantitySelector from './components/QuantitySelector/QuantitySelector';
-import StarRating from './components/StarRating/StarRating';
-import Grid from './components/Grid/Grid';
-import GridItem from './components/Grid/GridItem';
-import Alert from './components/Alert/Alert';
-import BagCount from './components/BagCount/BagCount';
-import VarianceSelector from './components/VarianceSelector/VarianceSelector';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import { QuantitySelector, StarRating, Grid, GridItem, Alert, BagCount, VarianceSelector, ScrollToTop } from 'ecommerce-ui-nuggets';
 
 export default {
 	name: 'app',
