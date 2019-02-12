@@ -368,6 +368,24 @@
         </Accordion>
       </div>      
     </div>
+
+    <div class="card">
+      <h1>
+          Credit Card
+      </h1>
+      <p class="card-text">
+          x configirable properties
+          <ol>
+              <li> - Default value <strong></strong></li>
+              <li> - Default value <strong></strong></li>
+              <li> - Default value <strong></strong></li>
+              <li> - Default value <strong></strong></li>
+          </ol>
+      </p>
+      <div class="card-text">
+          <CreditCard />
+      </div>
+    </div>
     <footer class="nugget-demo-footer-container">
       <Grid :columns="1">
         <GridItem class="nugget-grid-item-default">
@@ -405,6 +423,7 @@
 const swatchImg = require('./assets/color_swatch.jpeg');
 import Accordion from './components/Accordion/Accordion';
 import AccordionItem from './components/Accordion/AccordionItem';
+import CreditCard from './components/CreditCard/CreditCard';
 import { QuantitySelector, StarRating, Grid, GridItem, Alert, BagCount, VarianceSelector, ScrollToTop } from 'ecommerce-ui-nuggets';
 
 export default {
@@ -419,7 +438,8 @@ export default {
     VarianceSelector,
     ScrollToTop,
     Accordion,
-    AccordionItem
+    AccordionItem,
+    CreditCard
 	},
 	data() {
 		return {
